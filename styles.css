@@ -1,0 +1,122 @@
+/* Resetting default margin and padding */
+body, input, button, p, h2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Container Styling */
+.form-container, .homepage {
+    width: 100%;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Text Styling */
+h2 {
+    color: #003566;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+p {
+    color: #555;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border: 1px solid #4CAF50;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Link Styling */
+a {
+    color: #007acc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Visibility */
+#signUpForm, #homepage, #bookingForm, #myBookings, #support {
+    display: none; /* Hidden by default */
+}
+
+/* Menu Navigation */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003566;
+    padding: 12px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.menu div {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius:
